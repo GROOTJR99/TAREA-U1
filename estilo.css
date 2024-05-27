@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Work+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  width: 1100px;
+  margin: auto;
+}
+.nav_bar{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.logo img{
+    border-radius: 200px;
+    width: 100px;
+    height: 75px;
+}
+
+.menu_list a{
+  margin: 1.2rem;
+  font-size: 20px;
+  color: rgb(82, 79, 79);
+}
+
+.menu_list a:hover{
+  color: #000;
+}
+
+.home_section i{
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+.home_section h2{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.home_section .perfil{
+  margin-left: 80px;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.cuentas h2{
+  text-align: right;
+  font-size: 35px;
+}
+.cuentas p{
+  text-align: right;
+  font-size: 23px;
+}
+.cuentas .seleccion{
+  margin-bottom: -150px;
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 35px;
+}
+
+.services{
+  background: rgb(223, 223, 223);
+  padding: 2rem 1rem;
+}
+.services .title{
+  text-align: center;
+}
+.title h1{
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.title span{
+  color: rgb(228, 151, 8);
+}
+.title .slogan{
+  font-size: 1rem;
+  color: gray;
+}
+.services_boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.box{
+  width: 320px;
+  background: #fff;
+  padding: 2rem;
+  margin: 1rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
+}
+.box i{
+  font-size: 4rem;
+  color: rgb(228, 151, 8);
+  margin-bottom: 2rem;
+}
+.box p{
+  color: gray;
+  margin-top: 10px;
+}
+.box:hover, .br{
+  border: 2px solid rgb(228, 151, 8);
+}
+.transferencia{
+  text-align: center;
+  background: rgb(228, 151, 8);;
+  margin-top: 90px;
+  margin-bottom: -15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 40px;
+  padding-bottom: 20px;
+}
+.transferencia .transfer{
+ display: block;
+ 
+}
+.transferencia button{
+  font-size: 30px;
+  background:  rgb(179, 123, 17);
+  border-radius: 15px;
+}
+.transferencia button:hover{
+  background: none;
+}
+.transferencia a{
+  background: rgb(179, 123, 17);;
+  font-size: 30px;
+  color: #000;
+  border-radius: 30px;
+}
+.transferencia a:hover{
+  background: none;
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+} 
+
+header{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(imag/fondo1.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+  .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Logo{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  color: #FFFDFC;
+  display: block;
+  font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+  color: #CE967B;
+}
+
+#menu{
+  display: none;
+}
+
+.menu-icono{
+  width: 25px;
+}
+
+.menu-label{
+  cursor: pointer;
+  display: none;
+}
+
+.header-content{
+  text-align: center;
+}
+
+.header-content h1{
+  font-size: 75px;
+  line-height: 80px;
+  color: #F9fAfC;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.header-content p{
+  font-size: 16px;
+  color: #C5C5C5;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+.btn-1{
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: #CE967B;
+  color: #F9fAfC;
+  text-transform: uppercase;
+}
+.btn-1:hover{
+  background-color: #ebad8d;
+}
+
+.container-1{
+  padding: 100px 0;
+  background-image: linear-gradient(
+  45deg,
+  hsl(156deg 71% 1%) 0%,
+  hsl(169deg 47% 7%) 11%,
+  hsl(177deg 65% 9%) 22%,
+  hsl(182deg 100% 11%) 33%,
+  hsl(187deg 100% 15%) 44%,
+  hsl(191deg 100% 19%) 56%,
+  hsl(195deg 100% 25%) 67%,
+  hsl(197deg 100% 30%) 78%,
+  hsl(200deg 100% 35%) 89%,
+  hsl(202deg 94% 42%) 100%
+);
+  position: relative;
+  text-align:left;
+  color: #d4d8ea;
+}
+.container-1 h2{
+  font-size: 45px;
+  line-height: 70px;
+  color: #d4d8ea;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+
+}
+
+.group-imagen{
+  
+  justify-content: space-between;
+  
+}
+.group-imagen img{
+  width: 350px;
+  height: 250px;
+  margin: 10px 10px 10px 10px ;
+  border-radius: 20px;
+}
+.group-imagen a{
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #CE967B;
+  color: #F9fAfC;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.container-2{
+  padding: 100px 0;
+  background-image: linear-gradient(
+  45deg,
+  hsl(156deg 71% 1%) 0%,
+  hsl(169deg 47% 7%) 11%,
+  hsl(177deg 65% 9%) 22%,
+  hsl(182deg 100% 11%) 33%,
+  hsl(187deg 100% 15%) 44%,
+  hsl(191deg 100% 19%) 56%,
+  hsl(195deg 100% 25%) 67%,
+  hsl(197deg 100% 30%) 78%,
+  hsl(200deg 100% 35%) 89%,
+  hsl(202deg 94% 42%) 100%
+);
+  position: relative;
+  text-align: left;
+  color: #d4d8ea;
+}
+.container-2 h2{
+  font-size: 45px;
+  line-height: 70px;
+  color: #d5d6dc;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+
+}
+.group-imagen1{
+  justify-content: space-between;
+}
+.group-imagen1 img{
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+  margin: 20px 20px 20px 20px;
+}
+.group-imagen1 a{
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #CE967B;
+  color: #F9fAfC;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+footer{
+  padding: 100px 0;
+  background-image: linear-gradient(
+    45deg,
+    hsl(156deg 71% 1%) 0%,
+    hsl(169deg 47% 7%) 11%,
+    hsl(177deg 65% 9%) 22%,
+    hsl(182deg 100% 11%) 33%,
+    hsl(187deg 100% 15%) 44%,
+    hsl(191deg 100% 19%) 56%,
+    hsl(195deg 100% 25%) 67%,
+    hsl(197deg 100% 30%) 78%,
+    hsl(200deg 100% 35%) 89%,
+    hsl(202deg 94% 42%) 100%
+  );
+}
+.Informacion {
+  color: #C5C5C5;
+  
+}
+
+.Informacion a{
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  color: #FFFDFC;
+  display: block;
+  font-weight: 600;
+}
+
+
+
